@@ -5,7 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Abdullah Mehboob"
+        run: | 
+            echo "Mehboob Farid Khan"
+            echo "Maaz Mehboob"
+            echo "Abdullah Mehboob"
       - name: Print Good bye
         run: echo "Done! bye"
       

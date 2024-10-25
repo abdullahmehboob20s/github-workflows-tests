@@ -1,4 +1,4 @@
-name: sampel workflow
+name: Maaz Sample Workflow
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on : workflow_dispatch
 jobs:

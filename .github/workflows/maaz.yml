@@ -1,0 +1,12 @@
+name: sampel workflow
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on : workflow_dispatch
+jobs:
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print hello
+        run: echo "Abdullah Mehboob"
+      - name: Pring goodbye
+        run: echo "Good Bye!" 
+

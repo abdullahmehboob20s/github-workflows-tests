@@ -6,7 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Print hello
-        run: echo "Abdullah Mehboob"
+        run: |
+              echo "Abdullah Mehboob"
+              node -v
       - name: Pring goodbye
         run: echo "Good Bye!" 
 
